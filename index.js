@@ -1,7 +1,3 @@
-//Document ready:
-$(document).ready(function() {
-    /**version: */
-    const currentVersion = '1.0.0.4';
-    document.getElementById("app-version").textContent = currentVersion;
-    console.log(currentVersion);
-  });
+/**version: */
+const currentVersion = '1.0.0.5';
+console.log(currentVersion);
