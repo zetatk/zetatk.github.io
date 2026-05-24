@@ -1,3 +1,3 @@
 /**version: */
-const currentVersion = '1.0.0.6';
-console.log(currentVersion);
+const appversion = '1.0.0.7';
+console.log(appversion);
