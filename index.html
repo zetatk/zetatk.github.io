@@ -6,7 +6,8 @@
     <title>ZETATK | Coming Soon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">on
+    <link rel="icon" type="image/png" href="logo.png">
     
     <style>
         :root {
@@ -156,6 +157,20 @@
             font-weight: 500;
         }
 
+        .version-text {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            letter-spacing: 1px;
+            margin-top: 1.5rem;
+            text-transform: uppercase;
+            opacity: 0.6;
+        }
+        
+        #app-version {
+            color: var(--accent-blue); /* This highlights the version number in your logo's blue */
+            font-weight: 700;
+        }
+
         /* Keyframe Animations */
         @keyframes float {
             0%, 100% { transform: translateY(0px); }
@@ -173,6 +188,8 @@
             .logo-image { max-width: 130px; }
             .container { padding: 2.5rem 1.5rem; }
         }
+        
+        
     </style>
 </head>
 <body>
@@ -196,8 +213,16 @@
     </div>
 
     <br>
+    <script>
+        // Define your version number here
+        const currentVersion = "v1.0.0.5";
+    
+        // Inject it into the HTML placeholder
+        document.getElementById("app-version").textContent = currentVersion;
+    </script>
+    <script src="index.js?v=1.0.0.5"></script>
    
-    <script src="index.js?v=1.0.0.4"></script>
+    
 
     
     
