@@ -23,15 +23,3 @@ The official homepage and landing page for **ZetaTK**, designed to showcase our 
 - **Deployment:** GitHub Pages
 
 ---
-
-## 💻 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-You only need a modern web browser and a text editor (like VS Code) to work on this project.
-
-### Installation & Local Run
-1. **Clone the repository:**
-```bash
-   git clone [https://github.com/sahirpunjwani/zetatk.git](https://github.com/sahirpunjwani/zetatk.git)
